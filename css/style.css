@@ -5,7 +5,8 @@ body {
 
 header{
     background-color: rgb(68, 0, 255); 
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 form {
     text-align: left;
@@ -15,7 +16,13 @@ form {
     /* ヘッダーの下部に余白を作る */
 }
 
+.flat{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
 
 .button001 a {
 
@@ -28,7 +35,7 @@ form {
     margin-left: auto;
     margin-right: 20px;
     margin-bottom: 20px auto;
-    max-width: 180px;
+    max-width: 140px;
     padding: 10px 20px;
     color: #313131;
     transition: 0.3s ease-in-out;
@@ -36,7 +43,7 @@ form {
     
 }
 .button001 a:hover {
-    background: #313131;
+    background: #0cfff3b9;
     color: #FFF;
 }
 .button001 a:after {
