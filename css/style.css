@@ -1,0 +1,33 @@
+body {
+    font-family: Arial; /* フォントを Arial に */
+    text-align: center; /* 文字を中央揃えに */
+}
+
+header{
+    background-color: rgb(68, 0, 255); /* 背景を黒に */
+}
+form {
+    text-align: left;
+    
+    background-color: rgb(68, 0, 255); /* 背景を黒に */
+    color: #fff; /* 文字を白に */
+    margin: 0; /* 余白をなくす */
+    padding: 4px; /* 要素内余白を 10px に */
+    font-size: 18px; /* 文字サイズを 18px に */
+    /* ヘッダーの下部に余白を作る */
+}
+
+button {
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 0, 255);
+    padding: 15px 60px;
+
+}
+
+.example-r{
+    border: 1px solid #999;
+    padding: 10px;
+    
+    margin-top:10px;
+}
