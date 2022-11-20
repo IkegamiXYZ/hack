@@ -60,3 +60,7 @@ form {
     transition: 0.3s ease-in-out;
 }
 
+footer p {
+    margin: 40px auto;
+    text-align: center;
+  }
