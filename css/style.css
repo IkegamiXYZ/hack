@@ -68,7 +68,7 @@ form {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin center: auto;
+    margin: auto;
     margin-right: 20px;
     margin-bottom: 20px auto;
     max-width: 140px;
