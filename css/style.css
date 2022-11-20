@@ -4,15 +4,16 @@ body {
 }
 
 header{
-    background-color: rgb(0, 47, 255); 
+    background-color: rgb(0, 17, 255); 
     padding-top: 1em;
     padding-bottom: 1em;
 }
 form {
     text-align: left;
     margin: 0; /* 余白をなくす */
-    padding: 4px; /* 要素内余白を 10px に */
-    font-size: 18px; /* 文字サイズを 18px に */
+    padding: 2px; /* 要素内余白を 10px に */
+    font-size: 24px; /* 文字サイズを 18px に */
+    gap: 10%;
     /* ヘッダーの下部に余白を作る */
 }
 
@@ -42,6 +43,12 @@ form {
     font-weight: 500;
     
 }
+
+select{
+    color: rgb(0, 47, 255);
+   }
+
+
 .button001 a:hover {
     background: #0cfff3b9;
     color: #FFF;
