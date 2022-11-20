@@ -4,7 +4,7 @@ body {
 }
 
 header{
-    background-color: rgb(68, 0, 255); 
+    background-color: rgb(0, 47, 255); 
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -59,6 +59,43 @@ form {
     border-radius: 1px;
     transition: 0.3s ease-in-out;
 }
+
+.button002 a {
+
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin center: auto;
+    margin-right: 20px;
+    margin-bottom: 20px auto;
+    max-width: 140px;
+    padding: 10px 20px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    
+}
+.button002 a:hover {
+    background: #0cfff3b9;
+    color: #FFF;
+}
+.button002 a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+
 
 footer p {
     margin: 40px auto;
